@@ -1,0 +1,195 @@
+# Language options: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
+Language: Cpp
+
+# Style presets: LLVM, Google, Chromium, Mozilla, WebKit, Microsoft
+BasedOnStyle: LLVM
+
+# C++ standard to use
+Standard: Cpp20
+
+# Tab width (spaces per tab)
+TabWidth: 4
+
+# Use tabs: Never/ForIndentation
+UseTab: Never
+
+# Sort #include directives
+SortIncludes: false
+
+# Sort using declarations
+SortUsingDeclarations: false
+
+# Maximum columns per line (0 = no limit)
+ColumnLimit: 0
+
+# Indent offset for access modifiers (public/private/protected).
+# Negative moves members left (e.g., -2).
+AccessModifierOffset: -2
+
+# Alignment after open brackets:
+# Align: align contents; DontAlign: no forced align; AlwaysBreak: force newline after open bracket
+AlignAfterOpenBracket: Align
+
+# Align '=' in consecutive assignments
+AlignConsecutiveAssignments: false
+
+# Align names in consecutive declarations
+AlignConsecutiveDeclarations: false
+
+# Align escaped newline backslashes to the right
+AlignEscapedNewlines: Right
+
+# Align operands in binary/ternary expressions
+AlignOperands: true
+
+# Align trailing comments
+AlignTrailingComments: true
+
+# Allow all parameters of a declaration on next line
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# Allow short blocks on a single line (e.g., if(a) { b; })
+AllowShortBlocksOnASingleLine: true
+
+# Allow short case labels on a single line
+AllowShortCaseLabelsOnASingleLine: true
+
+# Allow short functions on a single line: None/InlineOnly/Empty/All
+AllowShortFunctionsOnASingleLine: None
+
+# Allow short if statements on a single line
+AllowShortIfStatementsOnASingleLine: true
+
+# Allow short loops on a single line
+AllowShortLoopsOnASingleLine: true
+
+# Break after return type: None/All/TopLevel/AllDefinitions
+AlwaysBreakAfterReturnType: None
+
+# Always break before multiline string literals
+AlwaysBreakBeforeMultilineStrings: false
+
+# Always break after template declarations
+AlwaysBreakTemplateDeclarations: true
+
+# Compact function call argument packing
+BinPackArguments: true
+
+# Compact parameter packing
+BinPackParameters: true
+
+# Brace wrapping options (effective when BreakBeforeBraces is Custom)
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+# Break before binary operators: None/NonAssignment/All
+BreakBeforeBinaryOperators: NonAssignment
+
+# How to break before braces: Custom/Attach/Allman
+BreakBeforeBraces: Custom
+
+# Break before ternary operators
+BreakBeforeTernaryOperators: false
+
+# Constructor initializer list break style: AfterColon, BeforeComma, etc.
+BreakConstructorInitializers: AfterColon
+
+# Break string literals when necessary
+BreakStringLiterals: false
+
+
+
+# Compact nested namespaces (do not break)
+CompactNamespaces: true
+
+# Constructor initializer list: all on one line or one per line
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+
+# Indent width for constructor initializer list
+ConstructorInitializerIndentWidth: 4
+
+# Continuation indent width (for wrapped lines)
+ContinuationIndentWidth: 4
+
+# Use compact braced list style for C++11 (no extra spaces)
+Cpp11BracedListStyle: true
+
+# Derive pointer alignment automatically
+DerivePointerAlignment: false
+
+# Fix namespace end comments automatically
+FixNamespaceComments: true
+
+# Indent case labels
+IndentCaseLabels: false
+
+# Indent preprocessor directives: None/AfterHash
+IndentPPDirectives: None
+
+# Base indent width (spaces per indent level)
+IndentWidth: 4
+
+# Indent wrapped function names
+IndentWrappedFunctionNames: false
+
+# Keep empty lines at start of blocks
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+# Maximum consecutive empty lines to keep
+MaxEmptyLinesToKeep: 1
+
+# Namespace indentation: None/Inner/All
+NamespaceIndentation: None
+
+# Pointer/reference symbol alignment: Left/Right/Middle
+PointerAlignment: Right
+
+# Reflow comments (wrap/align)
+ReflowComments: true
+
+# Space after C-style cast
+SpaceAfterCStyleCast: false
+
+# Space after 'template' keyword
+SpaceAfterTemplateKeyword: true
+
+# Space before assignment operators
+SpaceBeforeAssignmentOperators: true
+
+# Space before parentheses: Never/ControlStatements/Always
+SpaceBeforeParens: ControlStatements
+
+# Space in empty parentheses
+SpaceInEmptyParentheses: false
+
+# Spaces before trailing comments
+SpacesBeforeTrailingComments: 1
+
+# Spaces in angle brackets
+SpacesInAngles: false
+
+# Spaces in C-style cast parentheses
+SpacesInCStyleCastParentheses: false
+
+# Spaces in container literals (e.g., {1, 2})
+SpacesInContainerLiterals: true
+
+# Spaces in parentheses
+SpacesInParentheses: false
+
+# Spaces in square brackets
+SpacesInSquareBrackets: false
+
